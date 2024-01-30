@@ -324,8 +324,11 @@ td{
 }
 
 .mobileview{
-    visibility: hidden;
-    height: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  visibility: hidden;
+  height: 0px;
 }
 .mobileview a{
     display: flex;
@@ -345,6 +348,7 @@ td{
         visibility: hidden;
     }
     .mobileview{
+      
         visibility: visible;
         height: fit-content;
         position: fixed;

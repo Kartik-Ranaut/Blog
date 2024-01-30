@@ -66,7 +66,7 @@ function App() {
   },[theme])
   return (
     <div className="app">
-      <div className="mobileview flex justify-evenly w-4/12 text-xl cursor-pointer">
+      <div className="mobileview">
           <a onClick={homeHandler}>
           <i class="fa-solid fa-house"></i>
           <h6>Home</h6></a>
